@@ -6,16 +6,19 @@
     "scripts": {
         "webpack": "webpack --watch",
         "build": "webpack",
+        "start:dev": "webpack-dev-server",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "@webpack-cli/serve": "^1.6.0",
         "file-loader": "^6.2.0",
         "webpack": "^4.43.0",
         "webpack-bundle-analyzer": "^4.5.0",
-        "webpack-cli": "^3.3.11"
+        "webpack-cli": "^4.5.0",
+        "webpack-dev-server": "^4.6.0"
     },
     "dependencies": {
         "bootstrap": "^4.3.1",
